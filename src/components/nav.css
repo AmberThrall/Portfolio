@@ -1,0 +1,74 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 66px;
+
+  width: 100%;
+  padding: 10px 0;
+  display: block;
+  text-align: center;
+}
+
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #33363b;
+  font: 16px 'Open Sans';
+  padding: 0 4px;
+  margin-right: 24px;
+  vertical-align: middle;
+}
+
+.nav a:after {
+  margin-left: 24px;
+}
+
+.nav a:hover {
+  color: #c53211;
+}
+
+.nav a img {
+  width: 66px;
+  height: 66px;
+  vertical-align: middle;
+}
+
+/* Pulse */
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}

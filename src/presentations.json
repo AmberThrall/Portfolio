@@ -1,0 +1,36 @@
+[
+  {
+    "title": "On the realizability of the critical points of a realizable list",
+    "author": [
+      {"name": "Sarah Hoover"},
+      {"name": "Daniel McCormick"},
+      {"name": "Amber Thrall"}
+    ],
+    "year": "2018",
+    "journal": {
+      "name": "MAA Undergraduate Poster Session at the Joint Mathematics Meetings, San Diego, CA"
+    }
+  },
+  {
+    "title": "On the realizability of the critical points of a realizable multiset",
+    "author": [
+      {"name": "Sarah Hoover"},
+      {"name": "Daniel McCormick"},
+      {"name": "Amber Thrall"}
+    ],
+    "year": "2017",
+    "journal": {
+      "name": "University of Washington Bothell 2017 Research Symposium"
+    }
+  },
+  {
+    "title": "Permutative Matrices and the Real Nonnegative Inverse Eigenvalue Problem",
+    "author": [
+      {"name": "Amber Thrall"}
+    ],
+    "year": "2017",
+    "journal": {
+      "name": "University of Washington Research Symposium, Seattle, WA"
+    }
+  }
+]

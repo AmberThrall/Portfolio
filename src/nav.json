@@ -1,0 +1,7 @@
+[
+  { "to": "/research", "title": "Research" },
+  { "to": "/teaching", "title": "Teaching" },
+  { "to": "/", "title": "Homepage", "className": "hvr-pulse" },
+  { "to": "https://www.github.com/AmberThrall/", "title": "GitHub" },
+  { "to": "mailto:arthrall@math.arizona.edu", "title": "E-Mail" }
+]

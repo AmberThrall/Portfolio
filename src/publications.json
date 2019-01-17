@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Suleĭmanova spectra via permutative matrices, II",
+    "author": [
+      {"name": "Pietro Paparella"},
+      {"name": "Amber Thrall"}
+    ],
+    "type": "article",
+    "year": "2019",
+    "journal": {
+      "name": "Linear Algebra Appl.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0024379519300023",
+      "volume": "566",
+      "pages": "183--198"
+    },
+    "arXiv": "https://arxiv.org/abs/1806.07036",
+    "identifier": [{"type": "doi", "id":"10.1016/j.laa.2018.12.030"}],
+    "abstract": "In this work, the real nonnegative inverse eigenvalue problem is solved for a particular class of permutative matrix. The necessary and sufficient condition there is also shown to be sufficient for the symmetric nonnegative inverse eigenvalue problem. A result due to Johnson and Paparella [MR3452738, Linear Algebra Appl. 493 (2016), 281--300] is extended to include normalized lists that satisfy the new sufficient condition."
+  },
+  {
+    "title": "On the realizability of the critical points of a realizable list",
+    "author": [
+      {"name": "Sarah Hoover"},
+      {"name": "Daniel McCormick"},
+      {"name": "Pietro Paparella"},
+      {"name": "Amber Thrall"}
+    ],
+    "type": "article",
+    "year": "2018",
+    "journal": {
+      "name": "Linear Algebra Appl.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0024379518303082?via%3Dihub",
+      "volume": "555",
+      "pages": "301--313"
+    },
+    "arXiv": "https://arxiv.org/abs/1712.05454",
+    "identifier": [{"type": "doi", "id":"10.1016/j.laa.2018.06.024"}],
+    "abstract": "The nonnegative inverse eigenvalue problem (NIEP) is to characterize the spectra of entrywise nonnegative matrices. A finite multiset of complex numbers is called realizable if it is the spectrum of an entrywise nonnegative matrix. Monov conjectured that the kth-moments of the list of critical points of a realizable list are nonnegative. Johnson further conjectured that the list of critical points must be realizable. In this work, Johnson's conjecture, and consequently Monov's conjecture, is established for a variety of important cases including Ciarlet spectra, Suleĭmanova spectra, spectra realizable via companion matrices, and spectra realizable via similarity by a complex Hadamard matrix. Additionally we prove a result on differentiators and trace vectors, and use it to provide an alternative proof of a result due to Malamud and a generalization of a result due to Kushel and Tyaglov on circulant matrices. Implications for further research are discussed."
+  }
+]

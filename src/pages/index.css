@@ -1,0 +1,117 @@
+.columns {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: auto auto;
+  grid-column-gap: 45px;
+  justify-items: stretch;
+  align-items: stretch;
+  max-width: 1500px;
+}
+
+.intro {
+  margin-top: 50px;
+  color: #666;
+}
+
+.intro .block {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #444;
+  font: 400 18px/32px "Roboto", sans-serif;
+}
+
+.intro .block:last-child {
+  margin-right: 0;
+}
+
+.right p {
+  font: 12px Arial;
+  text-align: center;
+  color: #666;
+  margin-top: 0;
+  position: relative;
+  top: -50px;
+}
+
+.indexContainer {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right .mypic {
+  width: 100%;
+  height: auto;
+  border-radius: 15%;
+}
+
+@media (min-width: 1500px) {
+  .intro .blocks {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+  }
+
+  .intro .block {
+    width: 100%;
+  }
+}
+
+.right .column {
+  height: 80%;
+}
+
+@media (max-width: 1000px) {
+  .columns {
+    grid-template-columns: 75% 25%;
+  }
+}
+
+@media (max-width: 850px) {
+  .columns {
+    grid-template-columns: 100%;
+  }
+
+  .content {
+    margin-top: 300px;
+  }
+
+  .right {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    width: 200px;
+    margin: 50px -100px;
+  }
+
+  .right .mypic {
+    width: 50%;
+    height: auto;
+  }
+
+  .left h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .left h2 {
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .intro .block {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

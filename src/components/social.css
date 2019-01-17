@@ -1,0 +1,22 @@
+.social-icons {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.social-icons a {
+  cursor: pointer;
+  border: 0 !important;
+  background: transparent !important;
+  color: black;
+  opacity: 0.6;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  opacity: 0.9;
+}
+
+.social-icons a svg {
+  width: auto;
+  height: 25px;
+}

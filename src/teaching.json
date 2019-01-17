@@ -1,0 +1,131 @@
+{
+  "officeHours": "TuTh 10:00 - 11:00 am",
+  "office": "ENR2 S370FF",
+  "semester": {
+    "year": 2019,
+    "season": "Spring",
+    "start": { "year": 2019, "day": 9, "month": 1 },
+    "end": { "year": 2019, "day": 1, "month": 5 }
+  },
+  "currentCourses": [
+    {
+      "title": "College Algebra",
+      "course": "Math 112",
+      "section": "009",
+      "description": "Topics include properties of functions and graphs, linear and quadratic equations, polynomial functions, exponential and logarithmic functions with applications. A graphing calculator is required for this course. We recommend the TI-83 or TI-84 models. Calculators that perform symbolic manipulations, such as the TI-89, NSpire CAS, or HP50g, cannot be used. Except as per University policy on repeating a course, credit will not be given for this course if the student has credit in a higher level math course. Such students may be dropped from this course. Examinations are proctored.",
+      "homepage": "https://math112.math.arizona.edu/",
+      "room": "SAGHA 202",
+      "time": "MoWeFr 11:00 - 11:50 am",
+      "instructor": "Erzsebet Lugosi",
+      "isTA": true,
+      "exams": [
+        {
+          "month": 2,
+          "day": 18,
+          "year": 2019,
+          "start": [19,30],
+          "end": [20,30],
+          "isFinal": false,
+          "topics": "Functions, Graph of Functions, Linear Functions, Piecewise Linear Functions, Transformations of Functions"
+        },
+        {
+          "month": 3,
+          "day": 21,
+          "year": 2019,
+          "start": [19,30],
+          "end": [20,30],
+          "isFinal": false,
+          "topics": "Combining Functions, Inverse Functions, Quadratic Functions, Polynomial Functions"
+        },
+        {
+          "month": 4,
+          "day": 25,
+          "year": 2019,
+          "start": [19,30],
+          "end": [20,30],
+          "isFinal": false,
+          "topics": "Rational Functions, Exponential Functions, Logarithmic Functions, Properties of Logarithms, Exponential and Logarithmic Equations and Applications"
+        },
+        {
+          "month": 5,
+          "day": 6,
+          "year": 2019,
+          "start": [8,0],
+          "end": [10,0],
+          "isFinal": true
+        }
+      ]
+    },
+    {
+      "title": "College Algebra",
+      "course": "Math 112",
+      "section": "014",
+      "homepage": "https://math112.math.arizona.edu/",
+      "description": "Topics include properties of functions and graphs, linear and quadratic equations, polynomial functions, exponential and logarithmic functions with applications. A graphing calculator is required for this course. We recommend the TI-83 or TI-84 models. Calculators that perform symbolic manipulations, such as the TI-89, NSpire CAS, or HP50g, cannot be used. Except as per University policy on repeating a course, credit will not be given for this course if the student has credit in a higher level math course. Such students may be dropped from this course. Examinations are proctored.",
+      "room": "CHVEZ 405",
+      "time": "MoWeFr 12:00 - 12:50 am",
+      "instructor": "Jeffrey Craig",
+      "isTA": true,
+      "exams": [
+        {
+          "month": 2,
+          "day": 18,
+          "year": 2019,
+          "start": [19,30],
+          "end": [20,30],
+          "isFinal": false,
+          "topics": "Functions, Graph of Functions, Linear Functions, Piecewise Linear Functions, Transformations of Functions"
+        },
+        {
+          "month": 3,
+          "day": 21,
+          "year": 2019,
+          "start": [19,30],
+          "end": [20,30],
+          "isFinal": false,
+          "topics": "Combining Functions, Inverse Functions, Quadratic Functions, Polynomial Functions"
+        },
+        {
+          "month": 4,
+          "day": 25,
+          "year": 2019,
+          "start": [19,30],
+          "end": [20,30],
+          "isFinal": false,
+          "topics": "Rational Functions, Exponential Functions, Logarithmic Functions, Properties of Logarithms, Exponential and Logarithmic Equations and Applications"
+        },
+        {
+          "month": 5,
+          "day": 6,
+          "year": 2019,
+          "start": [8,0],
+          "end": [10,0],
+          "isFinal": true
+        }
+      ]
+    }
+  ],
+  "pastCourses": [
+    {
+      "title": "College Algebra",
+      "course": "Math 112",
+      "semester": "Fall 2018",
+      "school": "University of Arizona",
+      "isTA": true
+    },
+    {
+      "title": "Learning Strategies in Mathematics",
+      "course": "BMATH 127",
+      "semester": "Fall 2017 - Spring 2018",
+      "school": "University of Washington - Bothell",
+      "isTA": false
+    },
+    {
+      "title": "Calculus for the Life and Social Sciences",
+      "course": "BMATH 144",
+      "semester": "Winter 2018",
+      "school": "University of Washington - Bothell",
+      "isTA": true
+    }
+  ]
+}
